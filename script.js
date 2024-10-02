@@ -16,7 +16,7 @@ let redesSociais = document.getElementsByClassName("lista_redes")
 
 let texto02 = document.querySelector("post02 .post-texto")
 
-let listasRedeFooter = document.querySelectorAll("footer.lista_redes li")
+let listasRedesFooter = document.querySelectorAll("footer.lista_redes li")
 
 let linkTexto01 = document.querySelector("aside li a")
 
@@ -31,3 +31,12 @@ let linksNavegacao = document.querySelectorAll("#elementos_nav a")
 let autoresNegrito = document.querySelectorAll("#post #post-autor strong")
 
 let datasNegrito = document.querySelectorAll("#post #post-data strong")
+
+function percorrerArray(lista) {
+    for (let i = 0; i < lista.length; i++){
+        console.log(lista [i]);
+    }
+}
+
+percorrerArray(postAutores)
+
