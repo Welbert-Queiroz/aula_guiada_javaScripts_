@@ -13,3 +13,5 @@ let dataPosts = document.getElementsByClassName("post-data")
 let textoPosts = document.getElementsByClassName("post-texto")
 
 let redesSociais = document.getElementsByClassName("lista_redes")
+
+document.querySelector
