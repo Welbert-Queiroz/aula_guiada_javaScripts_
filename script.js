@@ -14,4 +14,20 @@ let textoPosts = document.getElementsByClassName("post-texto")
 
 let redesSociais = document.getElementsByClassName("lista_redes")
 
-document.querySelector
+let texto02 = document.querySelector("post02 .post-texto")
+
+let listasRedeFooter = document.querySelectorAll("footer.lista_redes li")
+
+let linkTexto01 = document.querySelector("aside li a")
+
+let palavraNegritoPost02 = document.querySelector("#post02 .post-autor first-strong")
+
+let nomeFormulario = document.querySelector("#formulario #nome")
+
+let linksListaRedesFooter = document.querySelectorAll("#lista_redes a")
+
+let linksNavegacao = document.querySelectorAll("#elementos_nav a")
+
+let autoresNegrito = document.querySelectorAll("#post #post-autor strong")
+
+let datasNegrito = document.querySelectorAll("#post #post-data strong")
